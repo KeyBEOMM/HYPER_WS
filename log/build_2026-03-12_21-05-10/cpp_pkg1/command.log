@@ -1,2 +1,0 @@
-Invoking command in '/home/kim/HYPER_WS/build/cpp_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kim/HYPER_WS/build/cpp_pkg1 -- -j8 -l8
-Invoked command in '/home/kim/HYPER_WS/build/cpp_pkg1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kim/HYPER_WS/build/cpp_pkg1 -- -j8 -l8
