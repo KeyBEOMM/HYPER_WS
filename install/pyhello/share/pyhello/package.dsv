@@ -1,0 +1,6 @@
+source;share/pyhello/hook/pythonpath.ps1
+source;share/pyhello/hook/pythonpath.dsv
+source;share/pyhello/hook/pythonpath.sh
+source;share/pyhello/hook/ament_prefix_path.ps1
+source;share/pyhello/hook/ament_prefix_path.dsv
+source;share/pyhello/hook/ament_prefix_path.sh

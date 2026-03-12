@@ -1,0 +1,40 @@
+[0.028s] Invoking command in '/home/kim/HYPER_WS/build/cpphello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/kim/HYPER_WS/src/cpphello -DCMAKE_INSTALL_PREFIX=/home/kim/HYPER_WS/install/cpphello
+[0.304s] -- The C compiler identification is GNU 13.3.0
+[0.698s] -- The CXX compiler identification is GNU 13.3.0
+[0.969s] -- Detecting C compiler ABI info
+[1.162s] -- Detecting C compiler ABI info - done
+[1.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.172s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.229s] -- Detecting CXX compiler ABI info
+[1.394s] -- Detecting CXX compiler ABI info - done
+[1.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.403s] -- Detecting CXX compile features
+[1.403s] -- Detecting CXX compile features - done
+[1.419s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.576s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.721s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.872s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.890s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.048s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.053s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.148s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.237s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.451s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.555s] -- Configuring done (2.5s)
+[2.566s] -- Generating done (0.0s)
+[2.569s] -- Build files have been written to: /home/kim/HYPER_WS/build/cpphello
+[2.577s] Invoked command in '/home/kim/HYPER_WS/build/cpphello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/kim/HYPER_WS/src/cpphello -DCMAKE_INSTALL_PREFIX=/home/kim/HYPER_WS/install/cpphello
+[2.578s] Invoking command in '/home/kim/HYPER_WS/build/cpphello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kim/HYPER_WS/build/cpphello -- -j8 -l8
+[2.623s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_receiver.dir/src/cpp_receiver.cpp.o[0m
+[4.912s] [01m[K/home/kim/HYPER_WS/src/cpphello/src/cpp_receiver.cpp:[m[K In constructor ‘[01m[KCppSubscriber::[01;32m[KCppSubscriber[m[K()[m[K’:
+[4.912s] [01m[K/home/kim/HYPER_WS/src/cpphello/src/cpp_receiver.cpp:13:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCppHelloSubscriber[m[K’ has not been declared
+[4.912s]    13 |             std::bind(&[01;31m[KCppHelloSubscriber[m[K::topic_callback, this, std::placeholders::_1) // callback function
+[4.912s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.519s] gmake[2]: *** [CMakeFiles/cpp_receiver.dir/build.make:76: CMakeFiles/cpp_receiver.dir/src/cpp_receiver.cpp.o] Error 1
+[5.519s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_receiver.dir/all] Error 2
+[5.519s] gmake: *** [Makefile:146: all] Error 2
+[5.522s] Invoked command in '/home/kim/HYPER_WS/build/cpphello' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kim/HYPER_WS/build/cpphello -- -j8 -l8

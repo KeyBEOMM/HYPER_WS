@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_receiver.dir/src/cpp_receiver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cpp_receiver[0m
+[100%] Built target cpp_receiver
+-- Install configuration: ""
+-- Installing: /home/kim/HYPER_WS/install/cpphello/lib/cpphello/cpp_receiver
+-- Set non-toolchain portion of runtime path of "/home/kim/HYPER_WS/install/cpphello/lib/cpphello/cpp_receiver" to ""
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/ament_index/resource_index/package_run_dependencies/cpphello
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/ament_index/resource_index/parent_prefix_path/cpphello
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/environment/ament_prefix_path.sh
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/environment/ament_prefix_path.dsv
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/environment/path.sh
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/environment/path.dsv
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/local_setup.bash
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/local_setup.sh
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/local_setup.zsh
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/local_setup.dsv
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/package.dsv
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/ament_index/resource_index/packages/cpphello
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/cmake/cpphelloConfig.cmake
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/cmake/cpphelloConfig-version.cmake
+-- Installing: /home/kim/HYPER_WS/install/cpphello/share/cpphello/package.xml

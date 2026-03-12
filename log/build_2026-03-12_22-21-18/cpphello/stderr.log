@@ -1,0 +1,7 @@
+[01m[K/home/kim/HYPER_WS/src/cpphello/src/cpp_receiver.cpp:[m[K In constructor ‘[01m[KCppSubscriber::[01;32m[KCppSubscriber[m[K()[m[K’:
+[01m[K/home/kim/HYPER_WS/src/cpphello/src/cpp_receiver.cpp:13:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCppHelloSubscriber[m[K’ has not been declared
+   13 |             std::bind(&[01;31m[KCppHelloSubscriber[m[K::topic_callback, this, std::placeholders::_1) // callback function
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_receiver.dir/build.make:76: CMakeFiles/cpp_receiver.dir/src/cpp_receiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_receiver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

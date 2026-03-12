@@ -1,0 +1,4 @@
+Invoking command in '/home/kim/HYPER_WS/build/cpphello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kim/HYPER_WS/build/cpphello -- -j8 -l8
+Invoked command in '/home/kim/HYPER_WS/build/cpphello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kim/HYPER_WS/build/cpphello -- -j8 -l8
+Invoking command in '/home/kim/HYPER_WS/build/cpphello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/kim/HYPER_WS/build/cpphello
+Invoked command in '/home/kim/HYPER_WS/build/cpphello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/kim/HYPER_WS/build/cpphello

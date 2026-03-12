@@ -1,0 +1,8 @@
+source;share/cpphello/hook/cmake_prefix_path.ps1
+source;share/cpphello/hook/cmake_prefix_path.dsv
+source;share/cpphello/hook/cmake_prefix_path.sh
+source;share/cpphello/local_setup.bash
+source;share/cpphello/local_setup.dsv
+source;share/cpphello/local_setup.ps1
+source;share/cpphello/local_setup.sh
+source;share/cpphello/local_setup.zsh
